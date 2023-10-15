@@ -26,6 +26,11 @@ var Direction;
 (function (Direction) {
     Direction[Direction["up"] = 1] = "up";
     Direction[Direction["down"] = 2] = "down";
+    Direction["left"] = "esquerda";
 })(Direction || (Direction = {}));
-const direction = Direction.up;
+const direction = Direction.left;
+// Type assertions
+//podemos alterar o tipo quando atribuimos a uma variavel
+const productName = 'bone';
+let itemId = productName;
 console.log(direction);
